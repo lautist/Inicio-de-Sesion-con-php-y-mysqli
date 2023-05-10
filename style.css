@@ -1,0 +1,85 @@
+*{
+   text-align: center;
+   font-family: 'Ubuntu', sans-serif;
+   color: #F4EEE0;
+}
+
+body{
+    background: #000000;
+}
+
+.con{
+    height: 380px;
+    width: 32.5%;
+    background: #6D5D6E;
+    border-radius: 10px;
+    margin: 100px auto;
+}
+    .title{
+        padding: 20px  0px;
+        font-size: 50px;
+        border-bottom: 2px solid #4F4557;
+        background: #393646;
+        border-radius: 10px 10px 0px 0px;
+        
+    }
+ 
+
+.in{
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 50px;
+}    
+    label{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .input-style{
+        width: 50%;
+        margin:  5px auto;
+        border-radius: 5px;
+        border: none;
+        padding: 5px;
+        color: #000;
+    }
+        .input-style:active{
+            border: none;
+        }
+
+.btn-is{
+    margin-top: 25px;
+    padding: 8px 35px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    background: #393646;
+    font-size: 13px;
+}    
+    .btn-is:hover{
+        background: #514d63;
+    }
+
+
+.register{
+    height: 450px;
+    width: 30%;
+    background: #6D5D6E;
+    margin: 100px auto;
+    border-radius: 10px; 
+}
+    .title-r{
+        padding: 15px 0px;
+        border-bottom: 1px solid #000;
+        background: #393646;
+        border-radius: 10px 10px 0 0;
+    }
+ 
+.register-in{
+    display: flex;
+    flex-flow: column wrap;
+}    
+
+
+.btn-cs{
+    color: black;
+}
