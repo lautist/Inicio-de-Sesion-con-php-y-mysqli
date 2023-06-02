@@ -1,4 +1,6 @@
 <?php 
+
+    include 'conexion.php';
 // Lo que estamos haciendo a continuacion es para comprabar si el usuario inicio sesion, en caso de no lo obilgara a iniciar
 session_start();
 
@@ -16,6 +18,10 @@ if(!isset($_SESSION['usuario'])){
     // Con esto hacemos que el codigo de abajo no se ejecute
     die();
 }
+//TOMO EL NOMBRE DEL USER PARA MOSTRARLO
+$iduser = $_SESSION['usuario'];
+
+
 
 
 ?>
@@ -35,6 +41,7 @@ if(!isset($_SESSION['usuario'])){
 </head>
 <body>
     <h2>Bienvenidos al buzon de correo claro</h2>
+    <h4>Bienvenido <?php echo $iduser ?></h4>
     <a href="../php/cerrar_sesion.php"><button>Cerrar Sesion</button></a>
 </body>
 </html>
