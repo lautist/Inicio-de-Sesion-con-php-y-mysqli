@@ -5,8 +5,6 @@ if(isset($_SESSION['usuario'])){
     header("location: /php/bienvenidos.php");
 }
 
-
-
 ?>
 
 
